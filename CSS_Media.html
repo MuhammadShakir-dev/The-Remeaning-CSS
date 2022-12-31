@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Media</title>
+    <style>
+
+        body{
+
+            background-color: whitesmoke;
+            color: black;
+        }
+
+        .container{
+
+            width: 70%;
+            height: 400px;
+            text-align: center;
+            border: 1px solid;
+            position: relative;
+            top: 50px;
+            margin: 0px auto 0px auto;
+            
+        }
+
+        @media screen  and (max-width:1440px){
+            
+            .container{
+                width: 50%;
+                color: red;
+                margin: 0px auto 0px auto ;
+                position: relative;
+                top: 50px;
+            }
+
+        }
+          
+        @media  screen and (max-width:1366px)  {
+
+            .container{
+
+                width: 50%;
+                color: blue;
+                margin: 0px auto 0px auto;
+                position: relative;
+                top: 50px;
+                
+            }
+            
+        } 
+
+        @media screen and (max-width:1024px) {
+
+            .container{
+
+                width: 50%;
+                color: yellow;
+                margin: 0px auto 0px auto;
+                position: relative;
+                top: 50px;
+                
+            }
+            
+        }
+    </style>
+</head>
+<body>
+        <div class="container">
+            <h1>Hello Folks</h1>
+        </div>
+</body>
+</html>
