@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Resize</title>
+
+    <style>
+
+        :root{
+          --main-color:blue;
+        }
+
+        .container{
+
+            width: 60%;
+            height: 300px;
+            border:1px solid var(--main-color);
+            text-align: center;
+            margin: 0px auto 0px auto;
+            overflow: auto;
+            resize: both;
+
+        }
+
+        .container h1{
+            cursor: move;
+            color: var(--main-color);
+        }
+        
+        .container p{
+          color: var(--main-color);
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+
+      <h1>Heading 1</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ex ea odio
+        vero commodi hic porro labore! Voluptatem, perferendis delectus magni
+        molestias dolores quo nemo, placeat aspernatur voluptatum quod
+        accusamus.
+      </p>
+    </div>    
+
+  </body>
+</html>
