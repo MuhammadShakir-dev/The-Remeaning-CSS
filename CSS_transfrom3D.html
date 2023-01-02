@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transfrom 3D</title>
+    <style>
+        :root{
+            --main-width:250px;
+            --main-height:250px;
+        }
+
+        .base{
+            width: var(--main-width);
+            height: var(--main-height);
+            background-color: grey;
+        }
+
+        .container1{
+            width: var(--main-width);
+            height: var(--main-height);
+            margin-bottom: 10px;
+            background-color: red;
+            color: white;
+            transition: all;
+            transition-duration: 1s;
+            transition-timing-function: ease;
+        }
+
+        .container1:hover{
+            transform: perspective(600px) scale3d(2, 2, 1) rotateX(60deg) ;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+    <div class="base">
+        <div class="container1">
+            <p>Rotate-X</p>
+        </div>
+    </div>
+
+</body>
+</html>
