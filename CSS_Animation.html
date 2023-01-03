@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation</title>
+    <style>
+        .container{
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            color: white;
+            font-size: 40px;
+            line-height: 300px;
+            text-align: center;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            animation-name:container-animation ;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: ease-in-out;
+        }
+
+        @keyframes container-animation{
+            0%{
+                width: 30%;
+                background-color: blue;
+            }
+
+            50%{
+                width: 60%;
+                background-color: purple;
+            }
+
+            100%{
+                width: 100%;
+                background-color: red;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        Shakir
+    </div>
+</body>
+</html>
