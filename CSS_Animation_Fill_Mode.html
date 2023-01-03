@@ -18,9 +18,15 @@
             background-color: black;
             animation-name: test-animation;
             animation-duration: 5s;
-            animation-iteration-count: infinite;
+            animation-iteration-count: 1;
             animation-direction: alternate;
             animation-timing-function: ease-in-out;
+            animation-fill-mode: both;
+            animation-play-state: paused;
+        }
+
+        .container:hover{
+            animation-play-state: running;
         }
 
 
