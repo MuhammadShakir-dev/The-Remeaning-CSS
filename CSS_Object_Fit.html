@@ -1,1 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Object Fit</title>
+
+    <style>
+      .cont-1 {
+        width: 300px;
+        height: 400px;
+        border: 1px solid;
+        box-sizing: border-box;
+        position: relative;
+        top: 20px;
+        left: 50px;
+        padding: 10px;
+        float: left;
+      }
+
+      .cont-1 img {
+        width: 100%;
+        height: 300px;
+        object-fit: fill;
+      }
+
+      .cont-1 p {
+        font-size: 10px;
+        padding: 10px;
+      }
+
+      .cont-2 {
+        width: 300px;
+        height: 400px;
+        border: 1px solid;
+        box-sizing: border-box;
+        position: relative;
+        top: 20px;
+        left: 100px;
+        display: inline-block;
+        padding: 10px;
+
+      }
+
+      .cont-2 img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+      }
+
+      .cont-2 p {
+        font-size: 10px;
+        padding: 10px;
+      }
+
+      .cont-3 {
+        width: 300px;
+        height: 400px;
+        border: 1px solid;
+        box-sizing: border-box;
+        position: relative;
+        top: 20px;
+        left: 150px;
+        display: inline-block;
+        padding: 10px;
+
+      }
+
+      .cont-3 img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+      }
+
+      .cont-3 p {
+        font-size: 10px;
+        padding: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="cont-1">
+      <img src="https://picsum.photos/300/300?grayscale" alt="" />
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit sint
+        ratione ab laudantium eum soluta perferendis! Voluptatum sit ipsam non
+        commodi ex officiis. Ducimus voluptas delectus unde odio, fuga omnis?
+      </p>
+    </div>
+
+    <div class="cont-2">
+      <img src="https://picsum.photos/200/300?grayscale" alt="" />
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, quaerat
+        at labore enim provident adipisci aut, autem quas voluptas mollitia
+        blanditiis! Dolores, doloremque illum vitae natus aliquid molestiae ad
+        laboriosam.
+      </p>
+    </div>
+
+    <div class="cont-3">
+      <img src="https://picsum.photos/200/300?grayscale" alt="" />
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis
+        obcaecati similique distinctio! Veritatis iusto adipisci esse possimus
+        laudantium, exercitationem, dolorem ut nemo vel iure blanditiis veniam
+        placeat. Natus, distinctio delectus?
+      </p>
+    </div>
+  </body>
+</html>
 
