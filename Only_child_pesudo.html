@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pesudo Only-of-type</title>
+    <style>
+        li:only-child{
+            color: grey;
+        }
+
+        p:nth-child(3){
+            color:grey;
+        }
+    </style>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda optio
+      atque fuga ipsa, doloremque pariatur nihil id aperiam blanditiis accusamus
+      odio praesentium sapiente mollitia molestias aut molestiae eaque quos sed!
+    </p>
+
+    <ol>
+      <li>Hello World</li>
+    </ol>
+
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias explicabo
+      magnam tempora vitae officia cupiditate nobis et vel. Ducimus architecto
+      eum iure inventore, aperiam possimus illum id molestias magnam culpa.
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eius
+      repudiandae dolorem placeat itaque tenetur nam ducimus. Neque, cupiditate?
+      Eveniet est distinctio alias laudantium ut repellendus, impedit magni
+      aperiam vero?
+    </p>
+  </body>
+</html>
+
+// Only child selects only those tag who has no child similar to that or can have only one parent.
