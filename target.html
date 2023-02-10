@@ -1,0 +1,43 @@
+// to target something in we use target tag it is mostly used in anchor tag and it a new css pesudo class property.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Target Pesudo Class</title>
+    <style>
+
+        li:hover{
+            color: black;
+        }
+
+        li a{
+            text-decoration: none;
+        }
+
+        li:target{
+            background-color: yellow;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Questions</h1>
+
+    <ol>
+        <li><a href="#gdsc"> What is GDSC?</a></li>
+        <li><a href="#mlsa"> What is MLSA?</a></li>
+        <li><a href="#gce"> What is GCE?</a></li>
+    </ol>
+
+    <h1>Answers</h1>
+
+    <ol>
+        <li id="gdsc">GDSC: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, commodi?</li>
+        <li id="mlsa">MLSA: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, adipisci.</li>
+        <li id="gce">GCE: Lorem ipsum dolor sit amet consectetur adipisicing elit. In, natus?</li>
+    </ol>
+</body>
+</html>
