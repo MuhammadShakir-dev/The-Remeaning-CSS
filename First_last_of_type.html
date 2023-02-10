@@ -1,0 +1,62 @@
+// First and last of type refer to the first and last type of the tag we are targeting.
+// Present is not compulsory for implementation.
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First & Last of type</title>
+    <style>
+        li:nth-of-type(2) {
+            color: grey;
+        }
+
+        p:first-of-type {
+            color: red;
+        }
+
+        p:last-of-type {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis neque
+        maxime at odit praesentium labore iste, molestiae fugit nam, delectus ea
+        iure est quasi, ad voluptates quod minima harum. Vitae.
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nobis nisi
+        voluptate reiciendis sed eveniet explicabo nesciunt at dolorum quibusdam
+        praesentium, voluptatum eligendi obcaecati officiis impedit modi deserunt
+        adipisci sequi?
+    </p>
+
+    <ol>
+        <li>Hi Google</li>
+        <li>
+            Hi Google
+            <ol>
+                <li>Google Developer Groups</li>
+                <li>Google Developer Expert</li>
+            </ol>
+        </li>
+        <li>Hi Google</li>
+        <li>Hi Google</li>
+    </ol>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ipsam
+        harum vel, labore et ea hic. Non reiciendis corporis impedit aliquam amet
+        aperiam recusandae atque quod earum, harum voluptatem mollitia?
+    </p>
+
+</body>
+
+</html>
